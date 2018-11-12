@@ -1,3 +1,5 @@
+//project1
+
 import React, { Component } from 'react';
 import './App.css';
 
@@ -71,3 +73,25 @@ class App extends Component {
 }
 
 export default App;
+
+
+//project 2 
+/*
+//Question 1
+ var Person={ name : "Moez", profession : "teacher", age:25 };
+
+  console.log(Person.name, Person.age);
+  console.log(Person["name"], Person["age"]);
+  
+//Question 2 
+ var newPerson=new Object({ name : "Mohamed", profession : "policier", age:25 });
+
+  console.log(newPerson);
+  
+//Question 3 
+ var peaks = ["Tallac", "Ralston", "Rose"] ;
+ var canyons = ["Ward", "Blackwood"] ;
+ var tahoe = [...peaks, ...canyons];
+
+    console.log(tahoe)
+    */
