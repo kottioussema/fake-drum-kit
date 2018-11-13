@@ -1,38 +1,10 @@
-//project1
+
 
 import React, { Component } from 'react';
 import './App.css';
 
 class App extends Component {
-  avance = () => { 
-    song.currentTime+= 10
-   };
-
-  wakhir =() => { 
-    song.currentTime-= 10
-   };
-
-  reset =() => {
-    score.innerHTML=0;
-    song.currentTime = 0
-  };
-
-  play =() => { 
-    document.body.style.backgroundColor = colors[(score.innerHTML % colors.length)];
-    score.innerHTML++;
-    song.play()
-  };
-
-  pause =() =>{ 
-    song.pause();
-    () => {setInterval(pause,1000);}
-   };
-
-  
-
-  const song = document.getElementById("song");
-  const score = document.getElementById("score");
-  const colors = ["green","skyblue","red","black","white","beige"];
+ 
   render() {
     return (
       <html lang="en">
@@ -41,16 +13,29 @@ class App extends Component {
        
       </head>
       
-      <body onkeypress={this.play}>
+      <body >
         
-        <center>
-          <audio id="song" src="song.mp3"></audio>
-          <h1 id="score"> 0 </h1>
+        <div>
+         
+          <p className="paragraph1"> 
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar libero ut ipsum tincidunt varius. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean vel dictum dui. Donec quam neque, hendrerit tristique urna et, scelerisque sollicitudin augue. Maecenas mattis risus eu diam vulputate, eu condimentum lorem venenatis. Sed et accumsan leo, et convallis est. Phasellus a ex odio. Proin turpis urna, convallis eu mi et, tempor varius ipsum. Morbi ipsum mauris, consectetur eget semper id, eleifend at magna. Etiam eu lorem est. Mauris pharetra dapibus metus, nec posuere dolor posuere ut. Vivamus ac leo elementum, condimentum nulla vitae, imperdiet erat. Fusce sit amet eleifend arcu,
+           et tempor dolor. Phasellus eros nisi,
+           ultrices egestas pulvinar et, laoreet quis diam.
+          </p>
+          <br/>
+           <hr/>
+          <br/>
+          <p className="paragraph2">
+           Proin id consectetur erat. Integer porta tempus odio non congue. 
+           Praesent ac eleifend sapien. Mauris laoreet, leo sit amet ultrices feugiat, diam augue aliquam nulla, a tempor odio nisl eget quam.
+           Maecenas aliquet ac elit at tincidunt. Suspendisse in dui diam.
+           Suspendisse eu augue faucibus, dictum metus eu, varius nibh.
+           Cras vulputate imperdiet mauris non fermentum. Morbi sagittis maximus viverra.
+           Pellentesque dignissim sapien orci.
+          </p>
           
-          <button id="9adim" onclick={this.avance}>9adim</button>
-          <button onclick={this.reset}> Reset </button>
-          <button id="wakhir" onclick={this.wakhir}>9adim bitweli</button>
-        </center>
+          
+        </div>
       
       </body>
       
@@ -73,25 +58,3 @@ class App extends Component {
 }
 
 export default App;
-
-
-//project 2 
-/*
-//Question 1
- var Person={ name : "Moez", profession : "teacher", age:25 };
-
-  console.log(Person.name, Person.age);
-  console.log(Person["name"], Person["age"]);
-  
-//Question 2 
- var newPerson=new Object({ name : "Mohamed", profession : "policier", age:25 });
-
-  console.log(newPerson);
-  
-//Question 3 
- var peaks = ["Tallac", "Ralston", "Rose"] ;
- var canyons = ["Ward", "Blackwood"] ;
- var tahoe = [...peaks, ...canyons];
-
-    console.log(tahoe)
-    */

@@ -6,9 +6,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+ 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.paragraph1{
+  padding: 0 2rem;
+  color: blue;
+  font-weight:bold;
+  background-color: gainsboro
+}
+
+.paragraph2{
+  margin: 2rem;
+  color:indigo;
+  font-size: medium;
+  text-align: center;
+  background-color:gainsboro
 }
