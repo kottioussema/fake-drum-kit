@@ -30,3 +30,57 @@
     transform: rotate(360deg);
   }
 }
+.paragraph1{
+  padding: 0 2rem;
+  color: blue;
+  font-weight:bold;
+  background-color: gainsboro
+}
+
+.paragraph2{
+  margin: 2rem;
+  color:indigo;
+  font-size: medium;
+  text-align: center;
+  background-color:gainsboro
+}
+
+.profile{
+  width: 250px;
+  height:350px
+}
+
+.rowList{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 2rem;
+}
+
+.title{
+  display: flex;
+
+  font-size: 3rem;
+  font-weight: bold;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 3rem
+}
+.background{
+  background-color: #f4f6f7
+}
+
+
+.firstName{
+  font-size: 1rem;
+}
+
+.lastName{
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.infos{
+  font-size: 1.2rem;
+  color:#696969
+}

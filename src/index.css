@@ -14,17 +14,3 @@ code {
     monospace;
 }
 
-.paragraph1{
-  padding: 0 2rem;
-  color: blue;
-  font-weight:bold;
-  background-color: gainsboro
-}
-
-.paragraph2{
-  margin: 2rem;
-  color:indigo;
-  font-size: medium;
-  text-align: center;
-  background-color:gainsboro
-}
