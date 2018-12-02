@@ -36,9 +36,7 @@ const Teams=[
 
 class TeamList extends Component {
 
-    renderItems=(item) =>{
-        
-    }
+    
 
     render(){
      return(
@@ -51,7 +49,9 @@ class TeamList extends Component {
             firstName={item.firstName}
             lastName={item.lastName}
             grade={item.grade}
-            post={item.post}/>)
+            post={item.post}
+            className="firstName"
+            />)
         }
        </div>
        </div>
