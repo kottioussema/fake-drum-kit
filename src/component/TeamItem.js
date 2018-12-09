@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../App.css";
+import { VirtualTimeScheduler } from "rxjs";
 
 class TeamItem extends Component {
   render() {
@@ -22,15 +23,16 @@ class TeamItem extends Component {
         />
         <br />
         <span className={this.props.className}>{this.props.firstName}</span>
-        <span style={styles.lastName}>
+        <span classNAme="lastName">
           {` ${this.props.lastName}`}
           <br />
         </span>
-        <span style={styles.infos}>
+        <span clasName="infos">
           {this.props.grade}
           <br />
         </span>
-        <span style={styles.infos}>{this.props.post}</span>
+        <span className="infos">{this.props.post}<br/></span>
+        <span className= "borderGender" style={{borderColor : this.props.gender==="male"? "blue" : "yellow"}}>{this.props.gender}</span>
       </div>
     );
   }

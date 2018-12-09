@@ -9,28 +9,35 @@ const Teams=[
         firstName:"Pierre",
         lastName:"Thomas",
         grade:"Develloper",
-        post:"React Js"
+        post:"React Js",
+        gender:"male"
     },
     {
         source:require("../static/profil2.jpg"),
         firstName:"Marcel",
         lastName:"Bertran",
         grade:"Develloper",
-        post:"React Js"
+        post:"React Js",
+        gender:"male"
+
     },
     {
       source:require("../static/profil3.jpg"),
       firstName:"Robert",
       lastName:"Martinez",
       grade:"Develloper",
-      post:"React Js"
+      post:"React Js",
+      gender:"male"
+
   },
   {
       source:require("../static/profil4.jpg"),
       firstName:"Daniel",
       lastName:"Denis",
       grade:"Develloper",
-      post:"React Js"
+      post:"React Js",
+      gender:"female"
+
   }
 ]
 
@@ -51,6 +58,8 @@ class TeamList extends Component {
             grade={item.grade}
             post={item.post}
             className="firstName"
+            styleImage="profile"
+            gender={item.gender}
             />)
         }
        </div>
