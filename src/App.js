@@ -3,8 +3,9 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import Checkpointreact3 from './container/CheckpointReact3';
+import Checkpointreact4 from './container/CheckpointReact4';
 import TeamList from './component/TeamList';
+import InfoTeam from './component/listennerEvent/InfoTeam';
 
 class App extends Component {
  
@@ -17,11 +18,14 @@ class App extends Component {
       </head>
       
       <body >
+      <Checkpointreact4/>
+
         
         
-      <TeamList/> 
+      
 
          {/*
+         <TeamList/> 
          <div >
             <Checkpointreact3/>
          </div>
