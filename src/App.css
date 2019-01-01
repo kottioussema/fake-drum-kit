@@ -261,3 +261,69 @@
 	background-color: #61dafb;
 	margin-left: 35%;
 }
+
+.columnContainer {
+	display: flex;
+
+	flex: 1;
+	flex-direction: row;
+}
+.minBox {
+	display: flex;
+
+	flex-direction: column;
+	align-items: center;
+	background-color: #05998d;
+	width: 25%;
+	padding-bottom: 6rem;
+}
+
+.maxBox {
+	display: flex;
+
+	flex-direction: column;
+
+	background-color: #ffffff;
+	width: 75%;
+}
+
+.fullName {
+	font-size: 40px;
+	font-weight: 400;
+	color: #ffffff;
+}
+.stage {
+	max-width: 1rem;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.titleContainer {
+	width: 21.5rem;
+	height: 2rem;
+	background-color: #017c73;
+	align-items: center;
+}
+.white {
+	color: #ffffff;
+}
+.table {
+	width: 100%;
+}
+.periode {
+	vertical-align: top;
+	width: 20%;
+}
+.width {
+	max-width: 5rem;
+}
+.borderCarrer {
+	border-style: solid;
+	border-width: 1px 0px 1px 0px;
+	border-color: #adaaaa;
+}
+.mode {
+	font-size: 20px;
+	font-weight: 500;
+	color: #05998d;
+}
