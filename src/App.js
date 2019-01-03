@@ -3,7 +3,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import Checkpointreact5 from './container/CheckpointReact5';
+import Checkpointreact6 from './container/CheckpointReact6';
 import TeamList from './component/TeamList';
 import InfoTeam from './component/listennerEvent/InfoTeam';
 import Chat from "./component/challenge/Chat";
@@ -19,7 +19,7 @@ class App extends Component {
       </head>
       
       <body >
-      <Checkpointreact5/>
+      <Checkpointreact6/>
         
       
 
