@@ -1,29 +1,23 @@
+import React, { Component } from "react";
+import "./App.css";
 
-
-import React, { Component } from 'react';
-import './App.css';
-
-import Checkpointreact6 from './container/CheckpointReact6';
-import TeamList from './component/TeamList';
-import InfoTeam from './component/listennerEvent/InfoTeam';
-import Chat from "./component/challenge/Chat";
+//import Checkpointreact6 from "./container/CheckpointReact6";
+//import TeamList from "./component/TeamList";
+//import InfoTeam from "./component/listennerEvent/InfoTeam";
+//import Chat from "./component/challenge/Chat";
+import Counter from "../src/component/counter/Counter";
 
 class App extends Component {
- 
   render() {
     return (
       <html lang="en">
-      <head>
-        
-       
-      </head>
-      
-      <body >
-      <Checkpointreact6/>
-        
-      
+        <head />
 
-         {/*
+        <body>
+          <Counter />
+
+          {/*
+          <Checkpointreact6 />
                  <Chat/>
 
                <Checkpointreact4/>
@@ -50,24 +44,9 @@ class App extends Component {
            Pellentesque dignissim sapien orci.
           </p>
           */}
-        
-        
-      
-      </body>
-      
-      <script>
+        </body>
 
-       
-        
-      
-       
-         
-        
-        
-      </script>
-      
-      
-      
+        <script />
       </html>
     );
   }
