@@ -1,6 +1,8 @@
 import {combineReducers} from "redux"
-import Counter from "./Card"
+import Counter from "./Counter";
+import Card from "./Card";
 
 export default combineReducers ({
-    Counter
+    Counter,
+    Card
 })

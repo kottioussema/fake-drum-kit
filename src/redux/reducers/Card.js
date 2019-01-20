@@ -1,23 +1,22 @@
-const Counter = (
-  state = {
-    nb: 0
-  },
-  action
-) => {
-  switch (action.type) {
-    case "INCREMENT":
-      return {
-        ...state,
-        nb: state.nb + 1
-      };
-
-    case "DECREMENT":
-      return {
-        ...state,
-        nb: state.nb - 1
-      };
-    default:
-      return state;
-  }
+const initialState = {
+	company: "",
+	cardNumber: "",
+	date: "",
+	name: ""
 };
-export default Counter;
+
+const Card = (state = initialState, action) => {
+	switch (action.type) {
+		case "UPDATECARDCOMPANY":
+			return Object.assign({}, state, { company: action.text });
+		case "UPDATECARDNUMBER":
+			return Object.assign({}, state, { cardNumber: action.text });
+		case "UPDATECARDDATE":
+			return Object.assign({}, state, { date: action.text });
+		case "UPDATECARDNAME":
+			return Object.assign({}, state, { name: action.text });
+		default:
+			return state;
+	}
+};
+export default Card;

@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import "./App.css";
+import CheckpointReact7 from "./container/checkpointReact7";
 
 //import Checkpointreact6 from "./container/CheckpointReact6";
 //import TeamList from "./component/TeamList";
 //import InfoTeam from "./component/listennerEvent/InfoTeam";
 //import Chat from "./component/challenge/Chat";
-import Counter from "../src/component/counter/Counter";
+//import Counter from "../src/component/counter/Counter";
 
 class App extends Component {
   render() {
@@ -14,8 +15,7 @@ class App extends Component {
         <head />
 
         <body>
-          <Counter />
-
+          <CheckpointReact7 />
           {/*
           <Checkpointreact6 />
                  <Chat/>
